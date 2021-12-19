@@ -338,4 +338,5 @@ else:
 
 
 Hy guys im Lessons_Part_1
-hello
+hell1o
+Why you deleted my stroke?
