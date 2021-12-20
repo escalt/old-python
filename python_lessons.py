@@ -333,10 +333,3 @@ else:
 
 
 
-
-
-
-
-Hy guys im Lessons_Part_1
-hell1o
-Why you deleted my stroke?
