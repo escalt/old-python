@@ -345,7 +345,7 @@ input("Press Enter to continue...")
 
 
 
-# pyinstaller --onefile --clean C:\Users\Max\Documents\GitHub\old-python\python_lessons.py
+# pyinstaller --onefile --clean --distpath C:\Users\Max\Documents\GitHub\old-python\ C:\Users\Max\Documents\GitHub\old-python\python_lessons.py
 
 
 a = None
