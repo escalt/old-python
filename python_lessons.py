@@ -345,11 +345,20 @@ input("Press Enter to continue...")
 
 
 
+# pyinstaller --onefile --clean C:\Users\Max\Documents\GitHub\old-python\python_lessons.py
 
 
+a = None
+a = 123
+b = 123
+c = '321'
+d = 3.14
 
-
-
+if a != b:
+    print('a != b')
+else:
+    print('a = b')
+input("Press Enter to continue...")
 
 
 
