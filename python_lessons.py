@@ -347,18 +347,24 @@ input("Press Enter to continue...")
 
 # pyinstaller --onefile --clean --distpath C:\Users\Max\Documents\GitHub\old-python\ C:\Users\Max\Documents\GitHub\old-python\python_lessons.py
 
+# $Env:<variable-name> = "<new-value>"
+# $Env:Path += ";c:\temp"
 
-a = None
-a = 123
-b = 123
-c = '321'
-d = 3.14
-
-if a != b:
-    print('a != b')
-else:
-    print('a = b')
+import subprocess
+try:
+   output = subprocess.check_output(["powershell.exe", "Get-Counter","-Counter "+r'"\memory\available mbytes"',"-MaxSamples 10", "-SampleInterval 1"],shell=True)
+except subprocess.CalledProcessError as e:
+    print ("subproces CalledProcessError.output =", e.output)
+print (output.decode())
 input("Press Enter to continue...")
+
+
+
+
+
+
+
+
 
 
 
